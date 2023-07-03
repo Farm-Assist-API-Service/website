@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm i -g vue-tsc && vue-tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
-"engines" : { 
-    "node" : "^14.18.0 || >=16.0.0" 
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
   },
   "dependencies": {
     "@types/node": "^18.15.10",
